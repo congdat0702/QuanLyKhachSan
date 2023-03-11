@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLKhachSanModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tblctdatphong">
+    <Key>
+      <PropertyRef Name="mapd" />
+    </Key>
+    <Property Name="mapd" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="maphong" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblctthuephong">
+    <Key>
+      <PropertyRef Name="mapt" />
+    </Key>
+    <Property Name="mapt" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="maphong" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ngay" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="madv" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="soluong" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'QLKhachSan.dbo.tblctvattu' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tblctvattu">
+          <Property Name="mavattu" Type="nvarchar" MaxLength="50" />
+          <Property Name="malp" Type="nvarchar" MaxLength="50" />
+          <Property Name="soluong" Type="nvarchar" MaxLength="50" />
+        </EntityType>-->
+  <EntityType Name="tbldichvu">
+    <Key>
+      <PropertyRef Name="madv" />
+    </Key>
+    <Property Name="madv" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="tendv" Type="nvarchar" MaxLength="50" />
+    <Property Name="gia" Type="nvarchar" MaxLength="50" />
+    <Property Name="donvitinh" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblhoadon">
+    <Key>
+      <PropertyRef Name="mahd" />
+    </Key>
+    <Property Name="mahd" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ngaythanhtoan" Type="nvarchar" MaxLength="50" />
+    <Property Name="tongtien" Type="nvarchar" MaxLength="50" />
+    <Property Name="mapt" Type="nvarchar" MaxLength="50" />
+    <Property Name="makh" Type="nvarchar" MaxLength="50" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblkhachhang">
+    <Key>
+      <PropertyRef Name="makh" />
+    </Key>
+    <Property Name="makh" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="tenkh" Type="nvarchar" MaxLength="50" />
+    <Property Name="gioitinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="ngaysinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="cmnd" Type="nvarchar" MaxLength="50" />
+    <Property Name="diachi" Type="nvarchar" MaxLength="50" />
+    <Property Name="sdt" Type="nvarchar" MaxLength="50" />
+    <Property Name="ghichu" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblloaiphong">
+    <Key>
+      <PropertyRef Name="maloai" />
+    </Key>
+    <Property Name="maloai" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="songuoi" Type="nvarchar" MaxLength="50" />
+    <Property Name="gia" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblnhanvien">
+    <Key>
+      <PropertyRef Name="manv" />
+    </Key>
+    <Property Name="manv" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="tennv" Type="nvarchar" MaxLength="50" />
+    <Property Name="gioitinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="ngaysinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="sdt" Type="nvarchar" MaxLength="50" />
+    <Property Name="diachi" Type="nvarchar" MaxLength="50" />
+    <Property Name="chucvu" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblphieudatphong">
+    <Key>
+      <PropertyRef Name="mapd" />
+    </Key>
+    <Property Name="mapd" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="makh" Type="nvarchar" MaxLength="50" />
+    <Property Name="ngayden" Type="nvarchar" MaxLength="50" />
+    <Property Name="ngaydi" Type="nvarchar" MaxLength="50" />
+    <Property Name="sotiendat" Type="nvarchar" MaxLength="50" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="tinhtrang" Type="nvarchar" MaxLength="50" />
+    <Property Name="songuoi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblphieuthuephong">
+    <Key>
+      <PropertyRef Name="mapt" />
+    </Key>
+    <Property Name="mapt" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="mapd" Type="nvarchar" MaxLength="50" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblphong">
+    <Key>
+      <PropertyRef Name="maphong" />
+    </Key>
+    <Property Name="maphong" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="maloai" Type="nvarchar" MaxLength="50" />
+    <Property Name="dadat" Type="nvarchar" MaxLength="50" />
+    <Property Name="danhan" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbltrangthaiphong">
+    <Key>
+      <PropertyRef Name="maphong" />
+    </Key>
+    <Property Name="maphong" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="trangthai" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbluser">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="fullname" Type="nvarchar" MaxLength="50" />
+    <Property Name="chucvu" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblvattu">
+    <Key>
+      <PropertyRef Name="mavattu" />
+    </Key>
+    <Property Name="mavattu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="tenvattu" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Function Name="CTDatPhong" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="mapd" Type="nvarchar" Mode="In" />
+    <Parameter Name="maphong" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="ChangePass" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="username" Type="nvarchar" Mode="In" />
+    <Parameter Name="password" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="CheckLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="username" Type="nvarchar" Mode="In" />
+    <Parameter Name="password" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="DatPhong" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="mapd" Type="nvarchar" Mode="In" />
+    <Parameter Name="makh" Type="nvarchar" Mode="In" />
+    <Parameter Name="ngayden" Type="nvarchar" Mode="In" />
+    <Parameter Name="ngaydi" Type="nvarchar" Mode="In" />
+    <Parameter Name="sotiendat" Type="nvarchar" Mode="In" />
+    <Parameter Name="tinhtrang" Type="nvarchar" Mode="In" />
+    <Parameter Name="songuoi" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="DSHoaDon" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="DSKhachHang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="dsKhachHang_SeclectAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="DSLoaiPhong" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="DSPhieuDatPhong" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="DSPhong" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="NhanPhong" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maphong" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SuaKH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="makh" Type="nvarchar" Mode="In" />
+    <Parameter Name="tenkh" Type="nvarchar" Mode="In" />
+    <Parameter Name="gioitinh" Type="nvarchar" Mode="In" />
+    <Parameter Name="ngaysinh" Type="nvarchar" Mode="In" />
+    <Parameter Name="cmnd" Type="nvarchar" Mode="In" />
+    <Parameter Name="diachi" Type="nvarchar" Mode="In" />
+    <Parameter Name="sdt" Type="nvarchar" Mode="In" />
+    <Parameter Name="ghichu" Type="nvarchar" Mode="In" />
+    <Parameter Name="makhcu" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="TimKH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="makh" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="TimKHMa" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="makh" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="TimKHTen" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tenkh" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="TimPhongN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maphieu" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="TimPhongTrong" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="songuoi" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="ThemKH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="makh" Type="nvarchar" Mode="In" />
+    <Parameter Name="tenkh" Type="nvarchar" Mode="In" />
+    <Parameter Name="gioitinh" Type="nvarchar" Mode="In" />
+    <Parameter Name="ngaysinh" Type="nvarchar" Mode="In" />
+    <Parameter Name="cmnd" Type="nvarchar" Mode="In" />
+    <Parameter Name="diachi" Type="nvarchar" Mode="In" />
+    <Parameter Name="sdt" Type="nvarchar" Mode="In" />
+    <Parameter Name="ghichu" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="ThongKe" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="UpdateDatPhong" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maphong" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="XoaKH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="makh" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="QLKhachSanModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblctdatphong" EntityType="Self.tblctdatphong" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblctthuephong" EntityType="Self.tblctthuephong" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbldichvu" EntityType="Self.tbldichvu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblhoadon" EntityType="Self.tblhoadon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblkhachhang" EntityType="Self.tblkhachhang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblloaiphong" EntityType="Self.tblloaiphong" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblnhanvien" EntityType="Self.tblnhanvien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblphieudatphong" EntityType="Self.tblphieudatphong" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblphieuthuephong" EntityType="Self.tblphieuthuephong" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblphong" EntityType="Self.tblphong" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbltrangthaiphong" EntityType="Self.tbltrangthaiphong" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbluser" EntityType="Self.tbluser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblvattu" EntityType="Self.tblvattu" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

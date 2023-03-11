@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F996A91D-DD31-4686-B76C-5F8BD7FF4CB4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QLKhachSan</RootNamespace>
+    <AssemblyName>QLKhachSan</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.WinterJoySkin, Version=1.0.2.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Win.WinterJoySkin.1.0.2\lib\net452\DevExpress.WinterJoySkin.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common.11.0.0.0.Fakes">
+      <HintPath>..\..\..\CNPM\QLTV\QLTV\QLTV\FakesAssemblies\Microsoft.ReportViewer.Common.11.0.0.0.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms.11.0.0.0.Fakes">
+      <HintPath>..\..\..\CNPM\QLTV\QLTV\QLTV\FakesAssemblies\Microsoft.ReportViewer.WinForms.11.0.0.0.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CheckLogin_Result.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="connection.cs" />
+    <Compile Include="DataBase.cs" />
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSHoaDon_Result.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DSKhachHang_Result.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dsKhachHang_SeclectAll_Result.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DSLoaiPhong_Result.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DSPhieuDatPhong_Result.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DSPhong_Result.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormReportHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormReportHoaDon.Designer.cs">
+      <DependentUpon>FormReportHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormReportKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormReportKhachHang.designer.cs">
+      <DependentUpon>FormReportKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormDatPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormDatPhong.Designer.cs">
+      <DependentUpon>FormDatPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormDoiMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormDoiMK.Designer.cs">
+      <DependentUpon>FormDoiMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHoaDon.Designer.cs">
+      <DependentUpon>FormHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormPhong.Designer.cs">
+      <DependentUpon>FormPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormThongTin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormThongTin.Designer.cs">
+      <DependentUpon>FormThongTin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormKhachHang.Designer.cs">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelQLKhachSan.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelQLKhachSan.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelQLKhachSan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelQLKhachSan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelQLKhachSan.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLKhachSanDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLKhachSanDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="qlksDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>qlksDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblctdatphong.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblctthuephong.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbldichvu.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblhoadon.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblkhachhang.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblloaiphong.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblnhanvien.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblphieudatphong.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblphieuthuephong.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblphong.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbltrangthaiphong.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbluser.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblvattu.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ThanhToan.Designer.cs">
+      <DependentUpon>ThanhToan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongKe_Result.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimKHMa_Result.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimKHTen_Result.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimKH_Result.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimPhongTrong_Result.cs">
+      <DependentUpon>ModelQLKhachSan.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form\FormReportHoaDon.resx">
+      <DependentUpon>FormReportHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormReportKhachHang.resx">
+      <DependentUpon>FormReportKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormDatPhong.resx">
+      <DependentUpon>FormDatPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormDoiMK.resx">
+      <DependentUpon>FormDoiMK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormHoaDon.resx">
+      <DependentUpon>FormHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormLogin.vi.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormPhong.resx">
+      <DependentUpon>FormPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormThongTin.resx">
+      <DependentUpon>FormThongTin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormKhachHang.resx">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="ReportKhachHang.rdlc" />
+    <EmbeddedResource Include="Form\ThanhToan.resx">
+      <DependentUpon>ThanhToan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <EntityDeploy Include="ModelQLKhachSan.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelQLKhachSan.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ModelQLKhachSan.edmx.diagram">
+      <DependentUpon>ModelQLKhachSan.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\QLKhachSan.Model.tblkhachhang.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QLKhachSanDataSet.xsc">
+      <DependentUpon>QLKhachSanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLKhachSanDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLKhachSanDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLKhachSanDataSet.xss">
+      <DependentUpon>QLKhachSanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="qlksDataSet.xsc">
+      <DependentUpon>qlksDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="qlksDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>qlksDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="qlksDataSet.xss">
+      <DependentUpon>qlksDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKSDataSet.xsc">
+      <DependentUpon>QuanLyKSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKSDataSet.xss">
+      <DependentUpon>QuanLyKSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Login_out.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Resources\bgHotel.png" />
+    <Content Include="ModelQLKhachSan.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelQLKhachSan.edmx</DependentUpon>
+      <LastGenOutput>ModelQLKhachSan.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ModelQLKhachSan.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelQLKhachSan.edmx</DependentUpon>
+      <LastGenOutput>ModelQLKhachSan.cs</LastGenOutput>
+    </Content>
+    <Content Include="Resources\DN.png" />
+    <Content Include="Resources\file-manager-icon.png" />
+    <Content Include="Resources\Guillendesign-Variations-2-System.ico" />
+    <Content Include="Resources\help.png" />
+    <Content Include="Resources\Hopstarter-Soft-Scraps-User-Clients.ico" />
+    <Content Include="Resources\Hopstarter-Soft-Scraps-User-Executive-Red.ico" />
+    <Content Include="Resources\House-icon.png" />
+    <Content Include="Resources\hutech.png" />
+    <None Include="Resources\hutech1.png" />
+    <Content Include="Resources\Icons-Land-Vista-People-Occupations-Technical-Support-Representative-Male-Light.ico" />
+    <Content Include="Resources\Iconshow-Construction-House.ico" />
+    <Content Include="Resources\KH.ico" />
+    <Content Include="Resources\Login_in.ico" />
+    <Content Include="Resources\payment.ico" />
+    <Content Include="Resources\person-icon.png" />
+    <Content Include="Resources\System-settings-icon.png" />
+    <Content Include="Resources\sytems.ico" />
+    <EmbeddedResource Include="Resources\thongbaoBT.jpg" />
+    <None Include="Resources\thongke.png" />
+    <Content Include="Resources\User-Clients-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

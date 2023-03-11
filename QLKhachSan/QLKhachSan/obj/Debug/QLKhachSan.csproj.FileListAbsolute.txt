@@ -1,0 +1,166 @@
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\QLKhachSan.exe.config
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\QLKhachSan.exe
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\QLKhachSan.pdb
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\vi\QLKhachSan.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\EnvDTE.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\stdole.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\Microsoft.MSXML.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormReportHoaDon.resources
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormReportKhachHang.resources
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormDatPhong.resources
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormDoiMK.resources
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormHoaDon.resources
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormLogin.resources
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormPhong.resources
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormThongTin.resources
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormKhachHang.resources
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.frmMain.resources
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.Properties.Resources.resources
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.frmThanhToan.resources
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormLogin.vi.resources
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.exe.licenses
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\vi\QLKhachSan.resources.dll
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.csproj.CopyComplete
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.exe
+C:\Users\admin\Desktop\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.pdb
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.csproj.AssemblyReference.cache
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.csproj.SuggestedBindingRedirects.cache
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormReportHoaDon.resources
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormReportKhachHang.resources
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormDatPhong.resources
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormDoiMK.resources
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormHoaDon.resources
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormLogin.resources
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormPhong.resources
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormThongTin.resources
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormKhachHang.resources
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.frmMain.resources
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.Properties.Resources.resources
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.frmThanhToan.resources
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.FormLogin.vi.resources
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.csproj.GenerateResource.cache
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.exe.licenses
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\QLKhachSan.exe.config
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\QLKhachSan.exe
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\QLKhachSan.pdb
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\vi\QLKhachSan.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\DevExpress.WinterJoySkin.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\EntityFramework.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\EntityFramework.SqlServer.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\EnvDTE.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\stdole.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\EntityFramework.xml
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\EntityFramework.SqlServer.xml
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.csproj.CoreCompileInputs.cache
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\vi\QLKhachSan.resources.dll
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.csproj.CopyComplete
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.exe
+E:\Learn\Lap Trinh Win\QLKhachSan\QLKhachSan\QLKhachSan\obj\Debug\QLKhachSan.pdb
